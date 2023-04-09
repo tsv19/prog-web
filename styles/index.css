@@ -1,0 +1,48 @@
+:root {
+    --grid-card-background-color: white;
+    --header-background-color: white;
+    --card-background-color: #ACA7CB;
+    --body-background-color: #BBBBBB;
+    --h4-text-color: #ACA7CB;
+    --span-background-color: #BBBBBB;
+}
+
+body {
+    font-family: courier;
+    background-color: var(--body-background-color);
+}
+
+h4 {
+    font-size: medium;
+    font-weight: bold;
+    color: var(--h4-text-color);
+}
+
+h4 span, p span {
+    background-color: var(--span-background-color);
+}
+
+header {
+    background-color: var(--header-background-color); 
+    margin-bottom: 30px; 
+    min-height: 100px;
+}
+
+#cards {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: var(--grid-card-background-color);
+}
+
+#cards .col {
+    margin-bottom: 10px;
+}
+
+.card {
+    background: var(--card-background-color);
+    min-height: 100%;
+}
+
+.shadow {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}

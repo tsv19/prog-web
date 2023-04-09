@@ -1,0 +1,30 @@
+:root {
+    --icon-color: rgb(78, 76, 76);
+}
+
+#contact {
+    margin-bottom: 30px;
+}
+
+#social {
+    margin-bottom: 30px;
+}
+
+.fa {
+    padding: 0px;
+    font-size: 50px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    color: var(--icon-color);
+}
+ 
+.fa span {
+    padding: 10px;
+    font-size: 20px;
+}
+
+.fa:hover {
+    text-decoration: none;
+    opacity: 0.7;
+}

@@ -1,0 +1,44 @@
+:root {
+    --aside-width: 250px;
+    --aside-background-color: #474554;
+    --nav-background-color: #ACA7CB;
+    --nav-font-color: rgb(78, 76, 76);
+    --nav-border-color: rgb(78, 76, 76);
+    --nav-a-hover-color: #F2ECFF;
+    --nav-a-font-hover-color: black;
+}
+
+aside {
+    width: var(--aside-width);
+    float: left;
+    text-align: center;
+    background-color: var(--aside-background-color);
+}
+
+nav {
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+nav.nav a {
+    text-decoration: none;
+    color: var(--nav-font-color);
+    background-color: var(--nav-background-color);
+    border: 1px solid var(--nav-border-color);
+    border-radius: 15px;
+    margin-bottom: 10px;
+}
+
+nav.nav a:hover {
+    color: var(--nav-a-font-hover-color);
+    background-color: var(--nav-a-hover-color);
+}
+
+#perfil-photo {
+    width: 200px;
+    margin-top: 20px;
+    margin-left: 25px;
+    margin-bottom: 20px;
+    border-radius: 40px;
+}
