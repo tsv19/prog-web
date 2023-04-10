@@ -40,13 +40,13 @@ header {
     min-height: 100px;
 }
 
-#cards {
+.grid-cards {
     padding-top: 20px;
     padding-bottom: 20px;
     background-color: var(--grid-card-background-color);
 }
 
-#cards .col {
+.grid-cards .col {
     margin-bottom: 15px;
 }
 
