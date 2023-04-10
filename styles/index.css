@@ -4,12 +4,24 @@
     --card-background-color: #ACA7CB;
     --body-background-color: #BBBBBB;
     --h4-text-color: #ACA7CB;
-    --span-background-color: #BBBBBB;
+    --span-background-color: white;
+    --h1-text-color: rgb(78, 76, 76);
+    --h2-text-color: rgb(78, 76, 76);
 }
 
 body {
     font-family: courier;
     background-color: var(--body-background-color);
+}
+
+h1 {
+    font-size: 2.5rem !important;
+    color: var(--h1-text-color);
+}
+
+h2 {
+    font-size: 1.5rem !important;
+    color: var(--h2-text-color);
 }
 
 h4 {
@@ -35,7 +47,7 @@ header {
 }
 
 #cards .col {
-    margin-bottom: 10px;
+    margin-bottom: 15px;
 }
 
 .card {
